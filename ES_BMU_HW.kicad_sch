@@ -79,8 +79,48 @@
 				(justify left)
 			)
 		)
+		(pin "RelayControl" input
+			(at 187.96 128.27 180)
+			(uuid "5aad6685-a7b9-4cd3-b9e7-032a22921036")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RelayCoil" input
+			(at 187.96 132.08 180)
+			(uuid "542c0e9e-3fba-4ec7-9192-3689246b9e74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RelayAux" input
+			(at 187.96 135.89 180)
+			(uuid "618fc9c0-25ff-4883-aeba-fa465ed340c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "InputSignals" input
+			(at 187.96 139.7 180)
+			(uuid "73ecf8ef-85f8-4d96-b0af-64c18a8054e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
-			(project "BMSems"
+			(project "ES_BMU_HW"
 				(path "/241310d7-2595-46fd-a468-4bac14ba2b52"
 					(page "5")
 				)
@@ -132,7 +172,7 @@
 			)
 		)
 		(instances
-			(project "BMSems"
+			(project "ES_BMU_HW"
 				(path "/241310d7-2595-46fd-a468-4bac14ba2b52"
 					(page "3")
 				)
@@ -174,7 +214,7 @@
 			)
 		)
 		(instances
-			(project "BMSems"
+			(project "ES_BMU_HW"
 				(path "/241310d7-2595-46fd-a468-4bac14ba2b52"
 					(page "4")
 				)
@@ -216,7 +256,7 @@
 			)
 		)
 		(instances
-			(project "BMSems"
+			(project "ES_BMU_HW"
 				(path "/241310d7-2595-46fd-a468-4bac14ba2b52"
 					(page "2")
 				)
@@ -258,7 +298,7 @@
 			)
 		)
 		(instances
-			(project "BMSems"
+			(project "ES_BMU_HW"
 				(path "/241310d7-2595-46fd-a468-4bac14ba2b52"
 					(page "6")
 				)
