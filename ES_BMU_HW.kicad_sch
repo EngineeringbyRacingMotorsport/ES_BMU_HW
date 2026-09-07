@@ -1,0 +1,274 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "241310d7-2595-46fd-a468-4bac14ba2b52")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 182.88 124.46) (xy 187.96 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ce555e3-1dd1-4a0e-8af7-fc9cce814632")
+	)
+	(bus
+		(pts
+			(xy 175.26 106.68) (xy 182.88 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1235a5e4-4fbe-4364-a2d2-24704ece94ca")
+	)
+	(bus
+		(pts
+			(xy 182.88 106.68) (xy 182.88 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca20602-ed38-4c87-9a65-bee1681ab666")
+	)
+	(sheet
+		(at 187.96 122.555)
+		(size 42.545 28.575)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0534aeae-6f70-40f7-b035-12d510ac20ae")
+		(property "Sheetname" "GPIO"
+			(at 187.96 121.8434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "outputs.kicad_sch"
+			(at 187.96 151.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RelayOutputs" input
+			(at 187.96 124.46 180)
+			(uuid "177f21eb-abf8-463c-ba77-d49be6f7ed64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "BMSems"
+				(path "/241310d7-2595-46fd-a468-4bac14ba2b52"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 142.24 82.55)
+		(size 33.02 26.035)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6f6c7945-d38d-4724-bb5a-e60dace4c87b")
+		(property "Sheetname" "stm32"
+			(at 142.24 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32.kicad_sch"
+			(at 142.24 109.1696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RelayOutputs" input
+			(at 175.26 106.68 0)
+			(uuid "f2a93ac9-e241-4b4c-94fc-4f1ffa2819b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "BMSems"
+				(path "/241310d7-2595-46fd-a468-4bac14ba2b52"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 194.945 70.485)
+		(size 31.115 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9ddb9cde-cf57-435c-838f-92d9ec896163")
+		(property "Sheetname" "power supply"
+			(at 194.945 69.7734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "powersupply.kicad_sch"
+			(at 194.945 93.9296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BMSems"
+				(path "/241310d7-2595-46fd-a468-4bac14ba2b52"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 82.55)
+		(size 37.465 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c0ba6fba-1710-434b-9eea-cb8bcc247ab8")
+		(property "Sheetname" "connectors"
+			(at 83.82 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 83.82 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BMSems"
+				(path "/241310d7-2595-46fd-a468-4bac14ba2b52"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 131.445)
+		(size 34.29 23.495)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f8ca5389-2bcb-4aef-92df-264edf966135")
+		(property "Sheetname" "SDCreset"
+			(at 88.9 130.7334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sdcreset.kicad_sch"
+			(at 88.9 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BMSems"
+				(path "/241310d7-2595-46fd-a468-4bac14ba2b52"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
