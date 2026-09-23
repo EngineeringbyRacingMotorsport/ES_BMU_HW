@@ -2858,6 +2858,15 @@
 		(uuid "069dc8d3-2b17-4d08-81b4-f00c100240a2")
 	)
 	(bus_entry
+		(at 86.36 189.23)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "120626d0-d19f-4d9f-98b6-f227b0e9a475")
+	)
+	(bus_entry
 		(at 104.14 162.56)
 		(size 2.54 -2.54)
 		(stroke
@@ -3205,6 +3214,16 @@
 			(type default)
 		)
 		(uuid "1b396770-4bb1-46f7-86f2-5de0e65b6546")
+	)
+	(wire
+		(pts
+			(xy 213.36 52.07) (xy 210.82 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ee84320-3e50-44a7-9ae4-aad7fcb93b96")
 	)
 	(wire
 		(pts
@@ -3808,7 +3827,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 35.56) (xy 138.43 35.56)
+			(xy 120.65 35.56) (xy 138.43 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4266,6 +4285,16 @@
 		)
 		(uuid "b4d1bc62-699b-440b-8a18-58538da82d00")
 	)
+	(wire
+		(pts
+			(xy 88.9 186.69) (xy 88.9 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7985178-c9b0-4c83-bffb-09975a8064f8")
+	)
 	(bus
 		(pts
 			(xy 39.37 162.56) (xy 41.91 162.56)
@@ -4375,6 +4404,16 @@
 			(type default)
 		)
 		(uuid "c36df3f3-1ac2-435f-93e5-36eb72c871c0")
+	)
+	(bus
+		(pts
+			(xy 83.82 189.23) (xy 86.36 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5918613-8ccd-4981-a3dd-fe28b172fc78")
 	)
 	(bus
 		(pts
@@ -4635,6 +4674,16 @@
 			(type default)
 		)
 		(uuid "ec6b511d-3df6-4a1c-8705-1669026ba719")
+	)
+	(wire
+		(pts
+			(xy 193.04 52.07) (xy 195.58 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f07d1111-3838-4d42-8531-ab5d2a9361c7")
 	)
 	(wire
 		(pts
@@ -4976,6 +5025,16 @@
 		)
 		(uuid "9d583eeb-90d0-4940-8bab-e4d8d69bdb1f")
 	)
+	(label "SDCinput"
+		(at 88.9 184.15 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0d1ba1a-b7ff-4d28-9e83-0be6f54ffc90")
+	)
 	(label "AuxAIR+"
 		(at 31.75 91.44 0)
 		(effects
@@ -5025,6 +5084,16 @@
 			(justify left bottom)
 		)
 		(uuid "b563571e-1fb0-47ea-8f97-13fdda9cf24c")
+	)
+	(label "SDCinput"
+		(at 120.65 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8da8e3d-178d-4adc-9b76-530de7ee3ca0")
 	)
 	(label "PwrAuxAIRpre"
 		(at 86.36 157.48 90)
@@ -5198,28 +5267,6 @@
 			)
 		)
 	)
-	(global_label "SDC"
-		(shape input)
-		(at 127 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b95d9338-92c9-4f17-ac0f-0ce600ea06a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.2653 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(hierarchical_label "RelayCoil"
 		(shape input)
 		(at 60.96 162.56 180)
@@ -5268,7 +5315,7 @@
 		)
 		(uuid "adaf7dae-0041-4896-8daa-7856d60deeeb")
 	)
-	(hierarchical_label "InputSignals"
+	(hierarchical_label "OutputsActivation"
 		(shape input)
 		(at 49.53 189.23 180)
 		(effects
@@ -5306,7 +5353,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 81.28 32.258 90)
 			(effects
 				(font
@@ -5441,7 +5488,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolderResistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 68.58 62.738 90)
 			(effects
 				(font
@@ -5512,7 +5559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 171.7548 45.72 0)
 			(effects
 				(font
@@ -5735,7 +5782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 50.4952 40.64 0)
 			(effects
 				(font
@@ -5995,6 +6042,180 @@
 		)
 	)
 	(symbol
+		(lib_id "Comparator:LM393")
+		(at 203.2 49.53 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fcac966-82a1-447c-999d-c3df39455fe7")
+		(property "Reference" "U2"
+			(at 201.9299 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM393"
+			(at 204.4699 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
+			(at 203.2 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 203.2 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 203.2 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a29af4c1-4ad8-41d7-bb03-8f7569a34737")
+		)
+		(pin "6"
+			(uuid "aa2cd38a-de16-44a4-b223-56d30be69ea1")
+		)
+		(pin "7"
+			(uuid "844f18ed-217c-4175-97de-d756c6967f78")
+		)
+		(pin "5"
+			(uuid "fc62f212-a0bf-4378-8dc3-2deccfa063af")
+		)
+		(pin "4"
+			(uuid "13c88201-3bb4-4994-ab78-a78aea843f61")
+		)
+		(pin "1"
+			(uuid "b1b9007a-e125-453a-8ad3-7c9488fa48df")
+		)
+		(pin "8"
+			(uuid "f4e94344-9cb4-4cf8-a147-a09bd260aeba")
+		)
+		(pin "2"
+			(uuid "a07c2793-6ee8-4bcc-9829-3716c08ab497")
+		)
+		(instances
+			(project "BMSems"
+				(path "/241310d7-2595-46fd-a468-4bac14ba2b52/0534aeae-6f70-40f7-b035-12d510ac20ae"
+					(reference "U2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 193.04 38.1 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fcac966-82a1-447c-999d-c3df39455fe8")
+		(property "Reference" "U2"
+			(at 193.04 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 193.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
+			(at 193.04 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 193.04 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 193.04 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a29af4c1-4ad8-41d7-bb03-8f7569a34738")
+		)
+		(pin "6"
+			(uuid "aa2cd38a-de16-44a4-b223-56d30be69ea2")
+		)
+		(pin "7"
+			(uuid "844f18ed-217c-4175-97de-d756c6967f79")
+		)
+		(pin "5"
+			(uuid "fc62f212-a0bf-4378-8dc3-2deccfa063b0")
+		)
+		(pin "4"
+			(uuid "13c88201-3bb4-4994-ab78-a78aea843f62")
+		)
+		(pin "1"
+			(uuid "b1b9007a-e125-453a-8ad3-7c9488fa48e0")
+		)
+		(pin "8"
+			(uuid "f4e94344-9cb4-4cf8-a147-a09bd260aebb")
+		)
+		(pin "2"
+			(uuid "a07c2793-6ee8-4bcc-9829-3716c08ab498")
+		)
+		(instances
+			(project "BMSems"
+				(path "/241310d7-2595-46fd-a468-4bac14ba2b52/0534aeae-6f70-40f7-b035-12d510ac20ae"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 156.21 76.2 270)
 		(mirror x)
@@ -6021,7 +6242,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 156.21 77.978 90)
 			(effects
 				(font
@@ -6091,7 +6312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 60.452 97.79 90)
 			(effects
 				(font
@@ -6565,7 +6786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 164.338 82.55 90)
 			(effects
 				(font
@@ -6712,7 +6933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 204.978 72.39 90)
 			(effects
 				(font
@@ -6852,7 +7073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 164.338 41.91 90)
 			(effects
 				(font
@@ -6920,7 +7141,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 81.28 62.738 90)
 			(effects
 				(font
@@ -7057,7 +7278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 204.978 31.75 90)
 			(effects
 				(font
@@ -7171,6 +7392,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 213.36 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57ba630f-ba15-495b-ba92-330e1874cbe0")
+		(property "Reference" "#PWR070"
+			(at 219.71 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c7447af-72aa-464b-8bb5-d3a92b0338f5")
+		)
+		(instances
+			(project "ES_BMU_HW"
+				(path "/241310d7-2595-46fd-a468-4bac14ba2b52/0534aeae-6f70-40f7-b035-12d510ac20ae"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_TVS")
 		(at 74.93 36.83 270)
 		(unit 1)
@@ -7268,7 +7555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 171.7548 86.36 0)
 			(effects
 				(font
@@ -7408,7 +7695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 50.4952 71.12 0)
 			(effects
 				(font
@@ -8001,91 +8288,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Comparator:LM393")
-		(at 193.04 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c7e142f-fd60-456d-aecf-e8330a83f2e2")
-		(property "Reference" "U5"
-			(at 193.04 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM393"
-			(at 193.04 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
-			(at 193.04 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 193.04 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
-			(at 193.04 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b2c01bc1-7f15-40f8-a7ac-975a5d21593e")
-		)
-		(pin "6"
-			(uuid "aa2cd38a-de16-44a4-b223-56d30be69ea1")
-		)
-		(pin "7"
-			(uuid "844f18ed-217c-4175-97de-d756c6967f78")
-		)
-		(pin "5"
-			(uuid "fc62f212-a0bf-4378-8dc3-2deccfa063af")
-		)
-		(pin "4"
-			(uuid "13c88201-3bb4-4994-ab78-a78aea843f61")
-		)
-		(pin "1"
-			(uuid "994dcf8f-71be-448e-898a-927b21993bbb")
-		)
-		(pin "8"
-			(uuid "f4e94344-9cb4-4cf8-a147-a09bd260aeba")
-		)
-		(pin "2"
-			(uuid "20901050-b086-4b3e-bd2d-3f62658231e8")
-		)
-		(instances
-			(project "BMSems"
-				(path "/241310d7-2595-46fd-a468-4bac14ba2b52/0534aeae-6f70-40f7-b035-12d510ac20ae"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 62.23 36.83 0)
 		(unit 1)
@@ -8113,7 +8315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 60.452 36.83 90)
 			(effects
 				(font
@@ -8410,7 +8612,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 81.28 93.218 90)
 			(effects
 				(font
@@ -8480,7 +8682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 60.452 67.31 90)
 			(effects
 				(font
@@ -8751,7 +8953,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 156.21 37.338 90)
 			(effects
 				(font
@@ -8889,7 +9091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolderResistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 68.58 32.258 90)
 			(effects
 				(font
@@ -9314,7 +9516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 50.4952 101.6 0)
 			(effects
 				(font
@@ -10117,6 +10319,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 193.04 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f65ac67a-e4e9-4a85-b353-794de9254b8b")
+		(property "Reference" "#PWR069"
+			(at 196.85 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 187.96 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 193.04 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b0862d8-8467-47a0-9d88-c35143bfdf7a")
+		)
+		(instances
+			(project "ES_BMU_HW"
+				(path "/241310d7-2595-46fd-a468-4bac14ba2b52/0534aeae-6f70-40f7-b035-12d510ac20ae"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 68.58 91.44 90)
 		(unit 1)
@@ -10142,7 +10410,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolderResistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 68.58 93.218 90)
 			(effects
 				(font

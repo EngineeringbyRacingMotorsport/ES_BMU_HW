@@ -69,16 +69,6 @@
 				(justify left top)
 			)
 		)
-		(pin "RelayOutputs" input
-			(at 187.96 124.46 180)
-			(uuid "177f21eb-abf8-463c-ba77-d49be6f7ed64")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "RelayControl" input
 			(at 187.96 128.27 180)
 			(uuid "5aad6685-a7b9-4cd3-b9e7-032a22921036")
@@ -99,7 +89,7 @@
 				(justify left)
 			)
 		)
-		(pin "RelayAux" input
+		(pin "RelayAux" bidirectional
 			(at 187.96 135.89 180)
 			(uuid "618fc9c0-25ff-4883-aeba-fa465ed340c2")
 			(effects
@@ -112,6 +102,16 @@
 		(pin "InputSignals" input
 			(at 187.96 139.7 180)
 			(uuid "73ecf8ef-85f8-4d96-b0af-64c18a8054e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OutputsActivation" input
+			(at 187.96 143.51 180)
+			(uuid "99857e0f-8973-44c5-b591-6fbeff445d1b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -161,9 +161,39 @@
 				(justify left top)
 			)
 		)
-		(pin "RelayOutputs" input
+		(pin "RelayControl" output
 			(at 175.26 106.68 0)
-			(uuid "f2a93ac9-e241-4b4c-94fc-4f1ffa2819b4")
+			(uuid "d22ac08b-ad66-41c7-928f-349a100cab8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RelayCoil" input
+			(at 175.26 99.06 0)
+			(uuid "c6779af1-944c-4683-b31c-0e00c7707bd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RelayAux" input
+			(at 175.26 102.87 0)
+			(uuid "fa2aec73-cecc-47b0-8cd0-335de1ad0b90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "InputSignals" input
+			(at 175.26 93.98 0)
+			(uuid "5b495d37-1e0d-4585-bc15-adf68fbc7620")
 			(effects
 				(font
 					(size 1.27 1.27)
