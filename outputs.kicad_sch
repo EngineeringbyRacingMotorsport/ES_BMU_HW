@@ -3197,7 +3197,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 185.42) (xy 140.97 185.42)
+			(xy 140.97 185.42) (xy 154.94 185.42)
 		)
 		(stroke
 			(width 0)
@@ -3397,16 +3397,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 175.26) (xy 152.4 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "369d8f7e-dfd2-4d2b-a985-89342829e871")
-	)
-	(wire
-		(pts
 			(xy 128.27 175.26) (xy 130.81 175.26)
 		)
 		(stroke
@@ -3544,16 +3534,6 @@
 			(type default)
 		)
 		(uuid "480f1b03-1bd2-48c3-99b0-afafc2b3507b")
-	)
-	(wire
-		(pts
-			(xy 154.94 185.42) (xy 152.4 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4846e73b-b033-447c-8bce-0897a4c9fb8a")
 	)
 	(wire
 		(pts
@@ -4027,16 +4007,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 165.1) (xy 152.4 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93637d48-25ee-403c-bd8a-bb6da122440a")
-	)
-	(wire
-		(pts
 			(xy 49.53 71.12) (xy 49.53 73.66)
 		)
 		(stroke
@@ -4167,7 +4137,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 175.26) (xy 140.97 175.26)
+			(xy 140.97 175.26) (xy 154.94 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4307,7 +4277,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 165.1) (xy 140.97 165.1)
+			(xy 140.97 165.1) (xy 154.94 165.1)
 		)
 		(stroke
 			(width 0)
@@ -6421,75 +6391,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SMAJ30A")
-		(at 148.59 165.1 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e908b60-58e2-4e02-b505-6baaa0b8943a")
-		(property "Reference" "D17"
-			(at 148.59 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMAJ30A"
-			(at 148.59 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 148.59 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 149.86 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "400W unidirectional Transient Voltage Suppressor, 30.0Vr, SMA(DO-214AC)"
-			(at 148.59 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89a703bf-45af-4654-8d00-1129b74a7d17")
-		)
-		(pin "2"
-			(uuid "4f5af6ec-f823-40cf-9a5c-8708708de86e")
-		)
-		(instances
-			(project "BMSems"
-				(path "/241310d7-2595-46fd-a468-4bac14ba2b52/0534aeae-6f70-40f7-b035-12d510ac20ae"
-					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 243.84 29.21 270)
 		(unit 1)
@@ -6550,75 +6451,6 @@
 			(project "BMSems"
 				(path "/241310d7-2595-46fd-a468-4bac14ba2b52/0534aeae-6f70-40f7-b035-12d510ac20ae"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SMAJ30A")
-		(at 148.59 175.26 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "321d4d88-b5c8-4c3d-a0c9-8fc4862617dc")
-		(property "Reference" "D19"
-			(at 148.59 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMAJ30A"
-			(at 148.59 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 148.59 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 149.86 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "400W unidirectional Transient Voltage Suppressor, 30.0Vr, SMA(DO-214AC)"
-			(at 148.59 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20e5d19c-abcc-4733-a0e8-723de4dd8f51")
-		)
-		(pin "2"
-			(uuid "e76f1c73-bdaf-4cf0-8b63-d72ba024797e")
-		)
-		(instances
-			(project "BMSems"
-				(path "/241310d7-2595-46fd-a468-4bac14ba2b52/0534aeae-6f70-40f7-b035-12d510ac20ae"
-					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -10041,75 +9873,6 @@
 			(project "BMSems"
 				(path "/241310d7-2595-46fd-a468-4bac14ba2b52/0534aeae-6f70-40f7-b035-12d510ac20ae"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SMAJ30A")
-		(at 148.59 185.42 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed709a14-3e9c-4162-8876-628839a11b5b")
-		(property "Reference" "D21"
-			(at 148.59 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMAJ30A"
-			(at 148.59 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 148.59 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 149.86 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "400W unidirectional Transient Voltage Suppressor, 30.0Vr, SMA(DO-214AC)"
-			(at 148.59 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46f95ecf-45b0-4708-b5ed-60eb4f0a32c2")
-		)
-		(pin "2"
-			(uuid "1c0e84ef-b203-486e-b315-5a6b5824ff1a")
-		)
-		(instances
-			(project "BMSems"
-				(path "/241310d7-2595-46fd-a468-4bac14ba2b52/0534aeae-6f70-40f7-b035-12d510ac20ae"
-					(reference "D21")
 					(unit 1)
 				)
 			)
