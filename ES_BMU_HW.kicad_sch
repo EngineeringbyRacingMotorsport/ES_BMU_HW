@@ -293,48 +293,6 @@
 			)
 		)
 	)
-	(sheet
-		(at 88.9 131.445)
-		(size 34.29 23.495)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f8ca5389-2bcb-4aef-92df-264edf966135")
-		(property "Sheetname" "SDCreset"
-			(at 88.9 130.7334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "sdcreset.kicad_sch"
-			(at 88.9 155.5246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "ES_BMU_HW"
-				(path "/241310d7-2595-46fd-a468-4bac14ba2b52"
-					(page "6")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "1")

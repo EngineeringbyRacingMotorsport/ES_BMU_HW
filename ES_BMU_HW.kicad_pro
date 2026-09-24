@@ -827,10 +827,6 @@
     [
       "0534aeae-6f70-40f7-b035-12d510ac20ae",
       "GPIO"
-    ],
-    [
-      "f8ca5389-2bcb-4aef-92df-264edf966135",
-      "SDCreset"
     ]
   ],
   "text_variables": {}
