@@ -2546,6 +2546,98 @@
 		)
 		(uuid "fa228406-e360-4e5e-bc83-552e6222e6aa")
 	)
+	(text_box "24V -> 12V\nLPF -> 318Hz"
+		(exclude_from_sim no)
+		(at 162.56 69.215 0)
+		(size 13.97 4.445)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "15d917e0-35f9-4847-af35-f0c7e0b88d00")
+	)
+	(text_box "24V -> 12V\nLPF -> 318Hz"
+		(exclude_from_sim no)
+		(at 161.925 27.94 0)
+		(size 13.97 4.445)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "41977af7-8797-4ae1-872a-a60263183abc")
+	)
+	(text_box "3.3V -> 3.29V\nLPF -> 339Hz"
+		(exclude_from_sim no)
+		(at 70.485 22.225 0)
+		(size 13.97 4.445)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "60d8aa18-7b45-471e-b350-5a5f93c3323c")
+	)
+	(text_box "LED supply voltage of 3.3V"
+		(exclude_from_sim no)
+		(at 115.57 109.855 0)
+		(size 23.495 3.175)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "6749ec2b-e170-430b-89d0-c3fb64a5c217")
+	)
 	(text_box "Overvoltage protection for over 30V"
 		(exclude_from_sim no)
 		(at 230.505 20.955 0)
@@ -4534,7 +4626,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10n"
 			(at 165.1 43.1799 0)
 			(effects
 				(font
@@ -4672,7 +4764,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "4u7"
 			(at 78.74 38.0999 0)
 			(effects
 				(font
@@ -5760,7 +5852,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470k"
+		(property "Value" "100k"
 			(at 156.21 83.8199 0)
 			(effects
 				(font
@@ -5908,7 +6000,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 196.85 73.6599 0)
 			(effects
 				(font
@@ -6048,7 +6140,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470k"
+		(property "Value" "100k"
 			(at 156.21 43.1799 0)
 			(effects
 				(font
@@ -6255,7 +6347,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 196.85 33.0199 0)
 			(effects
 				(font
@@ -6533,7 +6625,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10n"
 			(at 165.1 83.8199 0)
 			(effects
 				(font
@@ -6674,7 +6766,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "4u7"
 			(at 78.74 68.5799 0)
 			(effects
 				(font
@@ -8592,7 +8684,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "4u7"
 			(at 78.74 99.0599 0)
 			(effects
 				(font
