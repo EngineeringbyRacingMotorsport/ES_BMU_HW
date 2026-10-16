@@ -572,156 +572,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_TVS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_TVS"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Bidirectional transient-voltage-suppression diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode TVS thyrector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_TVS_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_TVS_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Fuse"
 			(pin_numbers
 				(hide yes)
@@ -2686,12 +2536,6 @@
 		(uuid "15d1f569-af83-402a-8ba3-1e99853a4a1e")
 	)
 	(junction
-		(at 57.15 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b9f77e2-ee40-472a-beb6-64d4a84b9de0")
-	)
-	(junction
 		(at 256.54 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2702,12 +2546,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f7a2f13-196b-4402-b80e-ef72707a725e")
-	)
-	(junction
-		(at 57.15 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "293c0439-bbe4-4f8f-9648-c9f108286278")
 	)
 	(junction
 		(at 199.39 38.1)
@@ -2750,12 +2588,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae1c022b-2150-4b3b-8d79-8cb4aa5766bf")
-	)
-	(junction
-		(at 57.15 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae6f0b7a-0fe2-4fc4-8e77-fc23da6d524e")
 	)
 	(junction
 		(at 69.85 60.96)
@@ -2813,16 +2645,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 71.12) (xy 57.15 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02229eb8-cb04-4e17-b215-c3087250bfab")
-	)
-	(wire
-		(pts
 			(xy 158.75 45.72) (xy 158.75 46.99)
 		)
 		(stroke
@@ -2863,23 +2685,13 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 91.44) (xy 54.61 91.44)
+			(xy 54.61 91.44) (xy 59.69 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0d2221cc-5250-4c41-9651-6a01a7ae1cfe")
-	)
-	(wire
-		(pts
-			(xy 57.15 101.6) (xy 57.15 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10a6eec9-9db8-4f40-b932-10597dad625b")
 	)
 	(wire
 		(pts
@@ -3073,16 +2885,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 33.02) (xy 57.15 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "354f93d5-ef15-454d-9eb1-045c2eff133b")
-	)
-	(wire
-		(pts
 			(xy 138.43 151.13) (xy 140.97 151.13)
 		)
 		(stroke
@@ -3140,16 +2942,6 @@
 			(type default)
 		)
 		(uuid "42e1afc6-534f-4ded-a6db-b67a3e8fc830")
-	)
-	(wire
-		(pts
-			(xy 59.69 60.96) (xy 57.15 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42f1e017-88f4-4bb5-a648-f02665791e62")
 	)
 	(wire
 		(pts
@@ -3273,23 +3065,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 30.48) (xy 57.15 30.48)
+			(xy 54.61 30.48) (xy 59.69 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5e8780e6-7138-44c5-92d9-3b6043145278")
-	)
-	(wire
-		(pts
-			(xy 57.15 30.48) (xy 54.61 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62f71de5-8ad8-4167-8d66-6991c235a254")
 	)
 	(wire
 		(pts
@@ -3340,16 +3122,6 @@
 			(type default)
 		)
 		(uuid "692f53c9-84b1-45e4-aa5a-3da4d4cda686")
-	)
-	(wire
-		(pts
-			(xy 57.15 93.98) (xy 57.15 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6942cfb5-1df3-4ed2-878c-73246d4d3986")
 	)
 	(wire
 		(pts
@@ -3543,7 +3315,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 60.96) (xy 54.61 60.96)
+			(xy 54.61 60.96) (xy 59.69 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3560,26 +3332,6 @@
 			(type default)
 		)
 		(uuid "93fb2521-1160-4dbd-aaa2-a90cf5de3ae2")
-	)
-	(wire
-		(pts
-			(xy 59.69 91.44) (xy 57.15 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95ef0c4b-801f-4bc5-970d-9ae337ab0597")
-	)
-	(wire
-		(pts
-			(xy 57.15 40.64) (xy 57.15 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98a2284b-17c4-45ee-8d6d-5e3347da82cb")
 	)
 	(wire
 		(pts
@@ -3910,16 +3662,6 @@
 			(type default)
 		)
 		(uuid "e0afb151-da59-48a3-948b-7b198ae88cfb")
-	)
-	(wire
-		(pts
-			(xy 57.15 63.5) (xy 57.15 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2d8a3f4-99f7-4da9-a03d-5f467e55f0b7")
 	)
 	(wire
 		(pts
@@ -5040,7 +4782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "129b5a51-9656-44f8-98b8-c9c5c2a8266f")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0102"
 			(at 167.64 116.84 0)
 			(effects
 				(font
@@ -5091,7 +4833,7 @@
 		(instances
 			(project "ES_BMU_HW"
 				(path "/241310d7-2595-46fd-a468-4bac14ba2b52/0534aeae-6f70-40f7-b035-12d510ac20ae"
-					(reference "#PWR?")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -6032,73 +5774,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 57.15 43.18 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4222a4b4-8d46-43b7-a76c-4270f69dd781")
-		(property "Reference" "#PWR038"
-			(at 57.15 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.15 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee532777-b41e-45b0-acf5-89342e9785fc")
-		)
-		(instances
-			(project "BMSems"
-				(path "/241310d7-2595-46fd-a468-4bac14ba2b52/0534aeae-6f70-40f7-b035-12d510ac20ae"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 158.75 82.55 0)
 		(mirror y)
@@ -6336,7 +6011,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "SD103AWS-G3-18"
 			(at 138.7475 72.39 0)
 			(effects
 				(font
@@ -6344,7 +6019,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 138.43 76.2 0)
 			(effects
 				(font
@@ -6363,6 +6038,15 @@
 			)
 		)
 		(property "Description" "Schottky diode"
+			(at 138.43 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SD103AWS-G3-18"
 			(at 138.43 76.2 0)
 			(effects
 				(font
@@ -6802,76 +6486,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 57.15 36.83 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a255b09-64e9-4f92-b6e6-b4923c611843")
-		(property "Reference" "D5"
-			(at 54.61 35.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMBJ3V3"
-			(at 54.61 38.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 57.15 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 57.15 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00d4f95d-a780-4f37-8d62-a591425d800b")
-		)
-		(pin "2"
-			(uuid "f8c0a8c1-620f-43bf-95fe-b05794dedb3b")
-		)
-		(instances
-			(project "BMSems"
-				(path "/241310d7-2595-46fd-a468-4bac14ba2b52/0534aeae-6f70-40f7-b035-12d510ac20ae"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 168.91 82.55 0)
 		(mirror y)
@@ -7167,7 +6781,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "SD103AWS-G3-18"
 			(at 65.0875 123.19 0)
 			(effects
 				(font
@@ -7175,7 +6789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 64.77 127 0)
 			(effects
 				(font
@@ -7194,6 +6808,15 @@
 			)
 		)
 		(property "Description" "Schottky diode"
+			(at 64.77 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SD103AWS-G3-18"
 			(at 64.77 127 0)
 			(effects
 				(font
@@ -7261,7 +6884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "STA"
 			(at 154.94 128.27 0)
 			(effects
 				(font
@@ -7289,73 +6912,6 @@
 			(project "ES_BMU_HW"
 				(path "/241310d7-2595-46fd-a468-4bac14ba2b52/0534aeae-6f70-40f7-b035-12d510ac20ae"
 					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 57.15 73.66 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a229e41-f13d-4d76-bbe5-51fe24b95b67")
-		(property "Reference" "#PWR011"
-			(at 57.15 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.15 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18fbdeed-36a0-413c-a9fd-14de6604361b")
-		)
-		(instances
-			(project "BMSems"
-				(path "/241310d7-2595-46fd-a468-4bac14ba2b52/0534aeae-6f70-40f7-b035-12d510ac20ae"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8170,7 +7726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af3d2a59-1d8a-48e0-9c67-3d8eeeeac144")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0101"
 			(at 167.64 128.27 0)
 			(effects
 				(font
@@ -8221,7 +7777,7 @@
 		(instances
 			(project "ES_BMU_HW"
 				(path "/241310d7-2595-46fd-a468-4bac14ba2b52/0534aeae-6f70-40f7-b035-12d510ac20ae"
-					(reference "#PWR?")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -8426,76 +7982,6 @@
 			(project "BMSems"
 				(path "/241310d7-2595-46fd-a468-4bac14ba2b52/0534aeae-6f70-40f7-b035-12d510ac20ae"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 57.15 97.79 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b32308ca-d9d9-4833-b77a-aadf1b71df0c")
-		(property "Reference" "D12"
-			(at 54.61 96.5199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMBJ3V3"
-			(at 54.61 99.0599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 57.15 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 57.15 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47fc56af-663c-4dda-bc03-4912d1e0cbb8")
-		)
-		(pin "2"
-			(uuid "ee188375-4ddb-4628-b3a2-05db85b6afa7")
-		)
-		(instances
-			(project "BMSems"
-				(path "/241310d7-2595-46fd-a468-4bac14ba2b52/0534aeae-6f70-40f7-b035-12d510ac20ae"
-					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -9020,7 +8506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "ERR"
 			(at 154.94 116.84 0)
 			(effects
 				(font
@@ -9508,7 +8994,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "SD103AWS-G3-18"
 			(at 138.7475 31.75 0)
 			(effects
 				(font
@@ -9516,7 +9002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 138.43 35.56 0)
 			(effects
 				(font
@@ -9543,6 +9029,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "SD103AWS-G3-18"
+			(at 138.43 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1e99543a-8104-4a3b-904e-eeeaf39ba237")
 		)
@@ -9553,73 +9048,6 @@
 			(project "BMSems"
 				(path "/241310d7-2595-46fd-a468-4bac14ba2b52/0534aeae-6f70-40f7-b035-12d510ac20ae"
 					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 57.15 104.14 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e41f6278-775b-461a-8664-b6024bec3168")
-		(property "Reference" "#PWR065"
-			(at 57.15 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.15 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0713a001-6226-4808-9b6a-fd7137d53252")
-		)
-		(instances
-			(project "BMSems"
-				(path "/241310d7-2595-46fd-a468-4bac14ba2b52/0534aeae-6f70-40f7-b035-12d510ac20ae"
-					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -10024,76 +9452,6 @@
 			(project "BMSems"
 				(path "/241310d7-2595-46fd-a468-4bac14ba2b52/0534aeae-6f70-40f7-b035-12d510ac20ae"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 57.15 67.31 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fae5c607-4a24-4647-aee0-cc4ec87b466f")
-		(property "Reference" "D11"
-			(at 54.61 66.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMBJ3V3"
-			(at 54.61 68.5799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 57.15 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 57.15 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "681aae95-5e22-4fb5-b4a2-ca5dd6a04d75")
-		)
-		(pin "2"
-			(uuid "46144e26-d9f2-4d15-891e-1c9da3a739e1")
-		)
-		(instances
-			(project "BMSems"
-				(path "/241310d7-2595-46fd-a468-4bac14ba2b52/0534aeae-6f70-40f7-b035-12d510ac20ae"
-					(reference "D11")
 					(unit 1)
 				)
 			)

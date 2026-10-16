@@ -6048,7 +6048,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-2020"
 			(at 142.24 31.75 0)
 			(effects
 				(font
