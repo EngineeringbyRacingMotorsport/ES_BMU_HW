@@ -14233,7 +14233,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P500X500X80-33N-D"
+		(property "Footprint" "Package_CSP:LFCSP-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm"
 			(at 243.84 131.75 0)
 			(hide yes)
 			(show_name no)

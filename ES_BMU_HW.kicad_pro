@@ -76,7 +76,44 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|124968000|71000000|8bbce7a0-7a14-4eab-ab39-1effe4f4716b|4bb5f4b2-3247-4241-b007-b2716e54925e",
+          ""
+        ],
+        [
+          "silk_edge_clearance|124968000|71000000|8bbce7a0-7a14-4eab-ab39-1effe4f4716b|d2b0abc0-c40c-4df3-bb41-749334b9d267",
+          ""
+        ],
+        [
+          "silk_overlap|124900458|82383100|4c937754-36f4-4d54-9e90-2b76f67dc469|d2b0abc0-c40c-4df3-bb41-749334b9d267",
+          ""
+        ],
+        [
+          "silk_overlap|124968000|71375600|05cc624d-058b-4e99-ac7a-b3588880decd|4bb5f4b2-3247-4241-b007-b2716e54925e",
+          ""
+        ],
+        [
+          "silk_overlap|124968000|79195600|4bb5f4b2-3247-4241-b007-b2716e54925e|a3e6fe7b-726c-4463-91a7-1c909361e04a",
+          ""
+        ],
+        [
+          "silk_overlap|133238875|81331726|29a169b0-3fb8-4e00-853f-b83655f69b23|4bb5f4b2-3247-4241-b007-b2716e54925e",
+          ""
+        ],
+        [
+          "silk_overlap|133869385|80473903|4bb5f4b2-3247-4241-b007-b2716e54925e|af9aa6a9-a532-446e-a3e5-cf362d0b3803",
+          ""
+        ],
+        [
+          "silk_overlap|133979385|82353903|4bb5f4b2-3247-4241-b007-b2716e54925e|746d15ec-52b3-43ca-8d74-d554716f722e",
+          ""
+        ],
+        [
+          "silk_overlap|134189385|80718903|19ab0502-c71a-4e45-8cc4-eefe62d8a549|4bb5f4b2-3247-4241-b007-b2716e54925e",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -107,7 +144,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -874,7 +911,7 @@
         "uuid": "241310d7-2595-46fd-a468-4bac14ba2b52"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR38-39",
     "variants": []
   },
   "sheets": [

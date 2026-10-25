@@ -3506,30 +3506,6 @@
 		)
 		(uuid "fcc71ac9-0ba2-45ca-be27-c22f37e38002")
 	)
-	(global_label "SDC"
-		(shape input)
-		(at 59.69 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "05d5e293-e958-4b98-a451-78ee9a8d267f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.4247 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "AIR-Coil-"
 		(shape input)
 		(at 39.37 154.94 180)
@@ -3615,6 +3591,30 @@
 		(uuid "42bc469c-6afa-47d6-a02a-b1f1ed30f882")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 71.8675 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SDCinput"
+		(shape input)
+		(at 59.69 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ba5cbf4-c94a-45dd-89db-2b3f57852753")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.2022 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
