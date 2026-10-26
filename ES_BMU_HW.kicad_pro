@@ -98,10 +98,6 @@
           ""
         ],
         [
-          "silk_overlap|133238875|81331726|29a169b0-3fb8-4e00-853f-b83655f69b23|4bb5f4b2-3247-4241-b007-b2716e54925e",
-          ""
-        ],
-        [
           "silk_overlap|133869385|80473903|4bb5f4b2-3247-4241-b007-b2716e54925e|af9aa6a9-a532-446e-a3e5-cf362d0b3803",
           ""
         ],
@@ -292,7 +288,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -892,7 +888,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://EUSS_Motorsport.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "space_save_all_events": true,
